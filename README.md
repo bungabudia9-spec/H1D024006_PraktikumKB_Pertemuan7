@@ -1,6 +1,6 @@
-# 📊 Iris Classification with Neural Network
+# Iris Classification with Neural Network
 
-## 📌 Deskripsi
+## Deskripsi
 
 Project ini merupakan implementasi **Neural Network menggunakan TensorFlow/Keras** untuk mengklasifikasikan dataset Iris menjadi tiga kelas:
 
@@ -17,7 +17,7 @@ Model menggunakan 4 fitur utama:
 
 ---
 
-## 🧠 Arsitektur Model
+## Arsitektur Model
 
 Model yang digunakan adalah **Deep Neural Network (DNN)**:
 
@@ -31,7 +31,7 @@ Model yang digunakan adalah **Deep Neural Network (DNN)**:
 
 ---
 
-## ⚙️ Library
+## Library
 
 Install dependency berikut:
 
@@ -41,7 +41,7 @@ pip install tensorflow pandas numpy scikit-learn matplotlib seaborn
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 Dataset Iris disimpan dalam file:
 
@@ -65,7 +65,7 @@ Contoh:
 
 ---
 
-## ▶️ Cara Menjalankan
+## Cara Menjalankan
 
 1. Pastikan file berikut ada di folder yang sama:
    * `praktikum7.py`
@@ -79,7 +79,7 @@ py -3.11 praktikum7.py
 
 ---
 
-## 📈 Hasil
+## Hasil
 
 * Accuracy: ±96%
 * Loss: ±0.07
@@ -88,7 +88,7 @@ Model mampu melakukan klasifikasi dengan baik pada data testing.
 
 ---
 
-## 📊 Output
+## Output
 
 ### Grafik Training
 
@@ -114,7 +114,7 @@ Label Asli: [1 0 2 ...]
 
 ---
 
-## 🔍 Prediksi Data Baru
+## Prediksi Data Baru
 
 User dapat memasukkan data secara manual:
 
@@ -131,36 +131,8 @@ Output:
 Prediksi kelas: Iris-setosa
 ```
 
----
-
-## ⚠️ Catatan
-
-### Error File Tidak Ditemukan
-
-```
-can't open file 'praktikum8_cnn.py'
-```
-
-Solusi: gunakan file yang benar (`praktikum7.py`)
-
----
-
-### Warning TensorFlow
-
-* GPU tidak aktif di Windows → normal
-* oneDNN warning → bisa diabaikan
-
----
-
-## 💡 Insight
-
-* Dataset kecil → rawan overfitting
-* Model terlalu besar untuk Iris
-* Model sederhana sebenarnya sudah cukup
-
----
-
-## 👨‍💻 Author
-
+## Identitas
+Nama: Bunga Budi Ambarwati
+NIM: H1D024006
 Praktikum Kecerdasan Buatan  
-Mahasiswa Informatika
+
